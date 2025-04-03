@@ -30,7 +30,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
            
             $user = $result->fetch_assoc();
 
-            if ($password == $user['password']) { 
+            if (password_verify($password, $user['password'])) {
+
 
                 
                 
