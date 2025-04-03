@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <!-- Cabeçalho com links de navegação -->
+
     <header>
         <div class="logo">
             <h1>Streamify</h1>
