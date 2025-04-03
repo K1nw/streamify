@@ -1,9 +1,9 @@
 <?php
 // Conexão com o banco de dados
 $servername = "localhost";
-$username = "root"; // O nome de usuário padrão no XAMPP é "root"
-$password = "";     // O MySQL geralmente não tem senha para o usuário root no XAMPP
-$dbname = "streamify";  // O nome do banco de dados que você acabou de criar
+$username = "root"; 
+$password = "";     
+$dbname = "streamify";  
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
